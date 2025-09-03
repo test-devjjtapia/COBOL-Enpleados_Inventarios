@@ -80,10 +80,21 @@ cobc -x empleados.cob
 cobc -x inventario.cob
 ```
 ### Ejecución
-```
 # Ejecutar sistema de empleados
+```
 ./empleados
-
+```
 # Ejecutar sistema de inventario
+```
 ./inventario
 ```
+## 📊 Características Técnicas
+  - Manejo de archivos: Organización secuencial e indexada
+  - Validación de datos: Verificación de existencia de registros
+  - Manejo de errores: Control de estados de archivo
+  - Interfaz de usuario: Menús interactivos con formato
+  - Reportes: Generación de documentos formateado
+## 📝 Notas
+  - Los archivos de datos se crean automáticamente al ejecutar los programas por primera vez
+  - El sistema de inventario utiliza organización indexada para búsquedas eficientes
+  - Ambos sistemas incluyen validaciones para evitar errores de entrada de datos
