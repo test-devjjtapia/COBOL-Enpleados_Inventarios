@@ -52,3 +52,30 @@ El programa solicita interactivamente los datos de cada empleado. Para finalizar
   - Valor total del inventario
   - Productos con stock bajo
   - Movimientos diarios
+### Estructuras de Datos
+  - ID (6 dígitos)
+  - Nombre (30 caracteres)
+  - Categoría (20 caracteres)
+  - Precio (formato 9(7)V99)
+  - Stock actual y mínimo (5 dígitos)
+  - Proveedor (30 caracteres)
+  - Última fecha de compra (10 caracteres)
+### Movimiento:
+  - Fecha (10 caracteres)
+  - Tipo (E/S para Entrada/Salida)
+  - ID de producto (6 dígitos)
+  - Cantidad (5 dígitos)
+  - Precio unitario (formato 9(7)V99)
+## 🚀 Compilación y Ejecución
+### Requisitos
+  - Compilador COBOL (GnuCOBOL recomendado)
+  - Sistema operativo compatible
+### Compilación
+# Compilar sistema de empleados
+```
+cobc -x empleados.cob
+```
+# Compilar sistema de inventario
+```
+cobc -x inventario.cob
+```
