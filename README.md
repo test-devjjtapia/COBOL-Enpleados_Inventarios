@@ -3,7 +3,7 @@ Este repositorio contiene dos sistemas desarrollados en COBOL para la gestión d
 
 📁 Estructura del Proyecto
 ```
-text
+Estructura
 ├── empleados.cob          # Sistema de registro de empleados
 ├── inventario.cob         # Sistema de gestión de inventario
 ├── empleados.dat          # Archivo de datos de empleados (generado)
@@ -11,3 +11,10 @@ text
 ├── movimientos.dat        # Archivo de movimientos de inventario (generado)
 └── reporte_inventario.txt # Reportes de inventario (generado)
 ```
+
+## 🏢 Sistema de Registro de Empleados (empleados.cob)
+### Funcionalidades
++ Registro de nuevos empleados con ID, nombre, departamento y salario
++ Validación de entrada de datos
++ Cálculo automático de estadísticas (total de salarios, promedio)
++ Almacenamiento en archivo secuencial
