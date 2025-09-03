@@ -33,41 +33,22 @@ El programa solicita interactivamente los datos de cada empleado. Para finalizar
 ### Funcionalidades Principales
   - Menú interactivo con 8 opciones:
   - Registrar nuevo producto
-
-Registrar entrada de stock
-
-Registrar salida de stock
-
-Consultar producto
-
-Listar productos bajo stock mínimo
-
-Generar reporte de inventario
-
-Ver movimientos del día
-
-Salir del sistema
-
-Gestión completa de productos con:
-
-Registro indexado por ID y nombre
-
-Control de stock y stock mínimo
-
-Seguimiento de proveedores y últimas compras
-
-Sistema de movimientos que registra:
-
-Entradas y salidas de inventario
-
-Fechas de transacciones
-
-Precios unitarios
-
-Reportes automáticos con:
-
-Valor total del inventario
-
-Productos con stock bajo
-
-Movimientos diarios
+  - Registrar entrada de stock
+  - Registrar salida de stock
+  - Consultar producto
+  - Listar productos bajo stock mínimo
+  - Generar reporte de inventario
+  - Ver movimientos del día
+  - Salir del sistema
+### Gestión completa de productos con:
+  - Registro indexado por ID y nombre
+  - Control de stock y stock mínimo
+  - Seguimiento de proveedores y últimas compras
+### Sistema de movimientos que registra:
+  - Entradas y salidas de inventario
+  - Fechas de transacciones
+  - Precios unitarios
+### Reportes automáticos con:
+  - Valor total del inventario
+  - Productos con stock bajo
+  - Movimientos diarios
