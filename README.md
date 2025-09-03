@@ -79,3 +79,11 @@ cobc -x empleados.cob
 ```
 cobc -x inventario.cob
 ```
+### Ejecución
+```
+# Ejecutar sistema de empleados
+./empleados
+
+# Ejecutar sistema de inventario
+./inventario
+```
