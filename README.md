@@ -1,5 +1,5 @@
 # Sistema de Gestión de Empleados e Inventario
-## Este repositorio contiene dos sistemas desarrollados en COBOL para la gestión de empleados y control de inventario.
+Este repositorio contiene dos sistemas desarrollados en COBOL para la gestión de empleados y control de inventario.
 
 📁 Estructura del Proyecto
 ```
@@ -18,3 +18,10 @@ Estructura
 + Validación de entrada de datos
 + Cálculo automático de estadísticas (total de salarios, promedio)
 + Almacenamiento en archivo secuencial
+
+### Estructura de datos
+REGISTRO-EMPLEADO:
+  - ID (5 dígitos)
+  - Nombre (30 caracteres)
+  - Departamento (20 caracteres)
+  - Salario (formato 9(7)V99)
